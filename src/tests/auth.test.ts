@@ -42,6 +42,6 @@ describe("get API Key", () => {
 
     const result = getAPIKey(header);
 
-    expect(result).toBe(1);
+    expect(result).toBeNull();
   });
 });
