@@ -36,4 +36,4 @@ jobs:
         run: "gcloud builds submit --tag asia-southeast1-docker.pkg.dev/notely-471007/notely-ar-repo/sithusan/notely:latest"
 
       - name: "Deploy to cloud run"
-        run: "gcloud run deploy notely --image asia-southeast1-docker.pkg.dev/notely-471007/notely-ar-repo/sithusan/notely:latest --region central1 --allow-unauthenticated --project notely-471007 --max-instances=4"
+        run: "gcloud run deploy notely --image asia-southeast1-docker.pkg.dev/notely-471007/notely-ar-repo/sithusan/notely:latest --region us-central1 --allow-unauthenticated --project notely-471007 --max-instances=4"
